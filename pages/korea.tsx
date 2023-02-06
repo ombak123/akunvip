@@ -1,4 +1,3 @@
-import { useAmp } from 'next/amp'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
@@ -7,23 +6,16 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav'
 
 export const config = {
-  amp: 'hybrid',
+  amp: true,
 }
 
 export default function Korea() {
   const router = useRouter();
-  useEffect(()=>{
-    // if(!isAmp)
-    //   router.reload()
-  })
-  const isAmp = useAmp()
   return (
     <Layout>
       <Head>
         <title>Ombak123</title>
       </Head>
-      {isAmp?(
-        <>
       <div className='container'>
           <Nav/>
           <div className='highlight'>
@@ -91,8 +83,6 @@ export default function Korea() {
         color: #f59e0b
       }
       `}</style>
-      </>
-      ):(<></>)}
     </Layout>
   )
 }

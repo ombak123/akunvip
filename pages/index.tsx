@@ -7,7 +7,7 @@ export default function IndexPage() {
   const router = useRouter();
   useEffect(()=>{
     setTimeout(()=>{
-      router.push("/korea?amp=1")
+      router.replace("/tmp")
     },2000)
   })
   return (
