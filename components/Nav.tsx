@@ -37,7 +37,7 @@ export default function Nav({}: Props) {
                 </a>
               </div>
               <div className='nav-item'>
-                <a href="https://ombak123.org/account/register">
+                <a href="https://ombak123.org">
                     <div className='btn login'>
                         Masuk
                     </div>
