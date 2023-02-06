@@ -13,7 +13,8 @@ export const config = {
 export default function Korea() {
   const router = useRouter();
   useEffect(()=>{
-    router.reload()
+    if(!isAmp)
+      router.reload()
   })
   const isAmp = useAmp()
   return (
