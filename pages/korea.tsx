@@ -16,6 +16,32 @@ export default function Korea() {
       <Head>
         <title>Ombak123</title>
       </Head>
+      <div className="footer">
+        <a href="https://t.me/+beIbzpwmikBmZDBl">
+          <div className='footer-item'>
+            <amp-img src="/img/tele.svg" width="20" height="20" alt="-"/>
+            Telegram
+          </div>
+        </a>
+        <a href="https://www.facebook.com/groups/1353211311865308">
+          <div className='footer-item'>
+            <amp-img src="/img/fb.svg" width="20" height="20" alt="-"/>
+            Facebook
+          </div>
+        </a>
+        <a href="https://www.instagram.com/ombak123.id/">
+          <div className='footer-item'>
+            <amp-img src="/img/ig.svg" width="20" height="20" alt="-"/>
+            Instagram
+          </div>
+        </a>
+        <a href="https://direct.lc.chat/14040600/">
+          <div className='footer-item'>
+            <amp-img src="/img/wa.svg" width="20" height="20" alt="-"/>
+            Live Chat
+          </div>
+        </a>
+      </div>
       <div className='container'>
           <Nav/>
           <div className='highlight'>
@@ -47,6 +73,31 @@ export default function Korea() {
           </div>
       </div>
       <style jsx>{`
+      .footer a{
+        text-decoration: none;
+        color: #fff;
+      }
+      .footer-item{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        font-size: 12px;
+        gap:6px;
+      }
+      .footer{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        z-index: 999;
+        position:fixed;
+        bottom:0;
+        left:0;
+        height:50px;
+        background: #000000e3;
+        right:0;
+        align-content:center;
+        justify-items:center;
+      }
       @media (max-width:767px){
         .container{
           margin: auto;
