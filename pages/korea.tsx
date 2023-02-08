@@ -17,25 +17,25 @@ export default function Korea() {
         <title>Ombak123</title>
       </Head>
       <div className="footer">
-        <a href="https://t.me/+beIbzpwmikBmZDBl">
+        <a href="https://t.me/+beIbzpwmikBmZDBl" target='_blank'>
           <div className='footer-item'>
             <amp-img src="/img/tele.svg" width="20" height="20" alt="-"/>
             Telegram
           </div>
         </a>
-        <a href="https://www.facebook.com/groups/1353211311865308">
+        <a href="https://www.facebook.com/groups/1353211311865308" target='_blank'>
           <div className='footer-item'>
             <amp-img src="/img/fb.svg" width="20" height="20" alt="-"/>
             Facebook
           </div>
         </a>
-        <a href="https://www.instagram.com/ombak123.id/">
+        <a href="https://www.instagram.com/ombak123.id/" target='_blank'>
           <div className='footer-item'>
             <amp-img src="/img/ig.svg" width="20" height="20" alt="-"/>
             Instagram
           </div>
         </a>
-        <a href="https://direct.lc.chat/14040600/">
+        <a href="https://direct.lc.chat/14040600/" target='_blank'>
           <div className='footer-item'>
             <amp-img src="/img/wa.svg" width="20" height="20" alt="-"/>
             Live Chat
