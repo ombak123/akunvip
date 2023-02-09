@@ -45,7 +45,7 @@ export default function Korea() {
       <div className='container'>
           <Nav/>
           <div className='highlight'>
-            <a href='https://ombak123.org/account/register'>
+            <a href='https://ombak123.org/account/register/akunprovip'>
               <amp-img
                   alt="highlight"
                   fallback=""
