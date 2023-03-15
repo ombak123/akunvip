@@ -13,9 +13,6 @@ export default function Korea() {
   const router = useRouter();
   return (
     <Layout>
-      <Head>
-        <title>Ombak123</title>
-      </Head>
       <div className="footer">
         <a href="https://t.me/+beIbzpwmikBmZDBl" target='_blank'>
           <div className='footer-item'>

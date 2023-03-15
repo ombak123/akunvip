@@ -12,9 +12,6 @@ export default function IndexPage() {
   })
   return (
     <div>
-      <Head>
-        <title>Ombak123</title>
-      </Head>
       <div className='container'>
         <Image src={"/img/logo.gif"} width={300} height={100} alt="."/>
         <h2>Mengalihkan ke Server Korea</h2>
