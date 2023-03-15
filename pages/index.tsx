@@ -19,7 +19,7 @@ export default function IndexPage() {
             href="http://www.akunvvipkamboja.com/"
             key="canonical"
           />
-        <meta name="google-site-verification" content="dNniYZUIHCRXo48WgsbwcjOPvHRivvtM4Gf6ijCVA6I" />
+        <meta name="google-site-verification" content="qRupMttlOsgwsaPlmjleKvnFQ0alwymCjKP6mor_UCM" />
         <meta name="description" content="Temukan keseruan bermain slot online dengan akun pro gacor di situs kami. Dapatkan panduan ultimate untuk trader agar bisa memaksimalkan keuntungan dari permainan slot online. Raih kemenangan besar dan nikmati pengalaman bermain yang tak terlupakan." />
         <meta name="keywords" content="AKUN PRO GACOR, akun pro gacor, akunpro, akunproserverindonesia, akunserverindonesia"/>
         <meta name="robots" content="index, follow" />
