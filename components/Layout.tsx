@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
         <title>Mainkan Game Slot Online Seru di Akun Pro VIP Korea - Daftar Sekarang!</title>
         <link
             rel="canonical"
-            href="https://www.akunprovipkorea.com/"
+            href="https://www.akunprovipkorea.com/korea"
             key="canonical"
           />
         <meta name="google-site-verification" content="qRupMttlOsgwsaPlmjleKvnFQ0alwymCjKP6mor_UCM" />
