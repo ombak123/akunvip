@@ -1,93 +1,148 @@
 import Head from 'next/head'
-import Image from 'next/image';
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import Info from '../components/Info'
+import Layout from '../components/Layout'
+import Nav from '../components/Nav'
 
-export default function IndexPage() {
+export const config = {
+  amp: true,
+}
+
+export default function HomePage() {
   const router = useRouter();
-  useEffect(()=>{
-    setTimeout(()=>{
-      router.replace("/tmp")
-    },2000)
-  })
   return (
-    <div>
-      <Head>
-        <title>Akun Pro Gacor Online Slot - Maksimalkan Keuntungan Anda Saat Bermain</title>
-        <link
-            rel="canonical"
-            href="http://www.akunvvipkamboja.com/"
-            key="canonical"
-          />
-        <meta name="google-site-verification" content="qRupMttlOsgwsaPlmjleKvnFQ0alwymCjKP6mor_UCM" />
-        <meta name="description" content="Temukan keseruan bermain slot online dengan akun pro gacor di situs kami. Dapatkan panduan ultimate untuk trader agar bisa memaksimalkan keuntungan dari permainan slot online. Raih kemenangan besar dan nikmati pengalaman bermain yang tak terlupakan." />
-        <meta name="keywords" content="AKUN PRO GACOR, akun pro gacor, akunpro, akunproserverindonesia, akunserverindonesia"/>
-        <meta name="robots" content="index, follow" />
-        <meta name="page-locale" content="id,en"/>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-        <meta content="true" name="HandheldFriendly"/>
-        <meta content="width" name="MobileOptimized"/>
-        <meta content="indonesian" name="language"/>
-        <meta content='#F6890B' name='theme-color' />
-        <meta name="supported-amp-formats" content="websites,stories,ads,email"/>
-        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:title" content="Akun Pro Gacor Online Slot - Maksimalkan Keuntungan Anda Saat Bermain"/>
-        <meta name="twitter:description" content="Temukan keseruan bermain slot online dengan akun pro gacor di situs kami. Dapatkan panduan ultimate untuk trader agar bisa memaksimalkan keuntungan dari permainan slot online. Raih kemenangan besar dan nikmati pengalaman bermain yang tak terlupakan."/>
-        <meta name="twitter:image:src" content="https://i.ibb.co/WKcVH5v/Whats-App-Image-2022-11-28-at-22-15-44.jpg"/>
-        <meta name="twitter:player" content="https://www.youtube.com/"/>
-        <meta property="og:title" content="Akun Pro Gacor Online Slot - Maksimalkan Keuntungan Anda Saat Bermain" />
-        <meta property="og:description" content="Temukan keseruan bermain slot online dengan akun pro gacor di situs kami. Dapatkan panduan ultimate untuk trader agar bisa memaksimalkan keuntungan dari permainan slot online. Raih kemenangan besar dan nikmati pengalaman bermain yang tak terlupakan." />
-        <meta name="og:image" content="https://i.ibb.co/WKcVH5v/Whats-App-Image-2022-11-28-at-22-15-44.jpg"/>
-        <meta property="og:image:width" content="640"/>
-        <meta property="og:image:height" content="167"/>
-        <meta name="og:url" content="https://123nona.biz"/>
-        <meta property="og:site_name" content="Akun Pro Gacor Online Slot - Maksimalkan Keuntungan Anda Saat Bermain" />
-        <meta name="og:locale" content="ID_id"/>
-        <meta name="og:video" content="https://www.youtube.com/"/>
-        <meta name="og:type" content="website"/>
-        <meta property="og:type" content="video" />
-        <meta property="og:video" content="https://www.youtube.com/"/>
-        <meta property="og:video:type" content="video/mp4"/>
-        <meta property="og:video:width" content="560"/>
-        <meta property="og:video:height" content="314"/> 
-        <meta name="theme-color" content="#0a0a0a" />
-        <meta name="categories" content="gacor,akunprogacor,akunpro, slot gacor, slot online, judi online" />
-        <meta name="language" content="ID"/>
-        <meta name="rating" content="general"/>
-        <meta name="copyright" content="ombak123"/>
-        <meta name="author" content="ombak123"/>
-        <meta name="distribution" content="global"/>
-        <meta name="publisher" content="ombak123"/>
-        <meta name="geo.placename" content="DKI Jakarta"/>
-        <meta name="geo.country" content="ID"/>
-        <meta name="geo.region" content="ID" />
-        <meta name="tgn.nation" content="Indonesia"/>
-      </Head>
+    <Layout>
+      <div className="footer">
+        <a href="https://t.me/+beIbzpwmikBmZDBl" target='_blank'>
+          <div className='footer-item'>
+            <amp-img src="/img/tele.svg" width="20" height="20" alt="-"/>
+            Telegram
+          </div>
+        </a>
+        <a href="https://www.facebook.com/groups/1353211311865308" target='_blank'>
+          <div className='footer-item'>
+            <amp-img src="/img/fb.svg" width="20" height="20" alt="-"/>
+            Facebook
+          </div>
+        </a>
+        <a href="https://www.instagram.com/ombak123.id/" target='_blank'>
+          <div className='footer-item'>
+            <amp-img src="/img/ig.svg" width="20" height="20" alt="-"/>
+            Instagram
+          </div>
+        </a>
+        <a href="https://direct.lc.chat/14040600/" target='_blank'>
+          <div className='footer-item'>
+            <amp-img src="/img/wa.svg" width="20" height="20" alt="-"/>
+            Live Chat
+          </div>
+        </a>
+      </div>
       <div className='container'>
-        <Image src={"/img/logo.gif"} width={300} height={100} alt="."/>
-        <h2>Mengalihkan ke Server Korea</h2>
-        <p>Please wait a moment .......
-        </p>
+          <Nav/>
+          <div className='highlight'>
+              <div className='highlightItem'>
+              <a href='https://123ombak.net/account/register/akunprovip'>
+                <amp-img
+                    alt="highlight"
+                    fallback=""
+                    width="2"
+                    height="1"
+                    layout='responsive'
+                    src="/img/bg.png"
+                    ></amp-img>
+                </a>
+              </div>
+          </div>
+          <Info/>
+          <div className='content'>
+          <h2>Akun Pro Korea Server terbaik dan terpercaya tahun 2023</h2>
+            <p>Akun Pro Korea adalah sebuah server luar negeri yang berasal dari negara korea di buat untuk bertujuan memudahkan para member-member berasal dari server indonesia yang susah sekali untuk menang dan mendapatkan jackpot tinggi. para member tidak perlu memakan waktu lama untuk menang bermain di server korea ini, mereka hanya membutuhkan waktu 1 jam untuk mendapatkan kemenangan dari bandar-bandar slot indonesia. Akun Pro Korea server korea ini sudah terpercaya oleh banyak member dari seluruh penjuru asia.</p>
+            <p>Akun Pro Korea Ini adalah operator slot yang hebat dan andal untuk Akun Pro Korea ini dibuat salah satu tujuannya adalah untuk memudahkan para pemain game slot untuk memainkan gamenya dimana saja dan kapan saja anda bisa mengakses website Akun Pro Korea kapan pun bisa diakses</p>
+            <p>Akun Pro Korea sangat mudah untuk di cari melalui mesin pencari google dengan kata kunci Akun Pro Korea, Ketika kalian sudah mengakses website akun pro korea, kalian langsung saja klik tombol login/daftar untuk login ke server korea.</p>
+          
+            <h2>Akun Pro Korea Server Alternatif member untuk mendapatkan jackpot</h2>
+            <p>Akun Pro Korea adalah Server yang sudah terpercaya karena banyak sekali member lama hingga baru terus bermain menggunakan server korea ini oleh karena itu di Akun Pro Korea banyak sekali member yang mendapatkan jackpot dari sini, tunggu apa lagi kalian langsung saja daftarkan diri anda di Sever Akun Pro Korea dan menangkan dan jackpot disini.</p>
+            <p>Akun Pro Korea selalu memberikan suatu hal yang terbaik untuk setiap member yang daftar dan bermain menggunakan server korea.</p>
+
+            <h2>Server Korea Selalu Gacor 24 Jam setiap harinya.</h2>
+            <p>Server Korea selalu gacor untuk setiap harinya selama 24 jam nonstop, dan selalu memberikan pelayanan terbaik. untuk membernya setiap hari daftar dan login menggunakan server korea akan selalu diberikan kemenangan dan kemudahan agar mendapatkan kenyamanan bermain oleh karena itu server korea selalu menjadi rekomendasi untuk bermain di server luar.</p>
+          </div>
       </div>
       <style jsx>{`
-        .container {
-          width: 100vw;
-          height: 100vh;
-          display: flex;
-          flex-direction:column;
-          justify-content: center;
-          align-items:center;
-          text-align: center;
+      .footer a{
+        text-decoration: none;
+        color: #fff;
+      }
+      .footer-item{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        font-size: 12px;
+        gap:6px;
+      }
+      .footer{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        z-index: 999;
+        position:fixed;
+        bottom:0;
+        left:0;
+        height:50px;
+        background: #000000e3;
+        right:0;
+        align-content:center;
+        justify-items:center;
+      }
+      @media (max-width:767px){
+        .container{
+          margin: auto;
         }
-        .container h2{
-          font-size: 32px;
-          margin-block-end: 0.5rem;
-          color: #2e2e2e;
+      }
+      @media (min-width:768px){
+        .container{
+          max-width: 720px;
+          margin:12px auto;
+          border-radius: 0.25rem;
         }
-        .container p{
-          color: #4f4f4f;
+      }
+      @media (min-width:992px){
+        .container{
+          max-width:960px;
         }
+      }
+      @media (min-width:1200px){
+        .container{
+          width:1000px
+        }
+      }
+      .highlight{
+        padding: 20px 0;
+      }
+      .highlight .highlightItem {
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .container{
+        display:block;
+        padding: 12px 15px;
+        box-sizing:border-box;
+        background: rgba(0,0,0,0.7);
+        box-shadow: 0 0 8px 4px #03A9F4;
+       }
+      .content {
+        margin-bottom: 50px;
+      }
+      .content p {
+        text-align: justify;
+        color: #fff;
+      }
+      .content h2 {
+        color: #6ba3f6
+      }
       `}</style>
-    </div>
+    </Layout>
   )
 }

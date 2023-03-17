@@ -19,7 +19,7 @@ export default function Layout({ children }: LayoutProps) {
         <meta name="keywords" content="Akun Pro VIP Korea, Akun Pro VIP Korea, akunpro, akunproserverindonesia, akunserverindonesia"/>
         <meta name="robots" content="index, follow" />
         <meta name="page-locale" content="id,en"/>
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type"/>
         <meta content="true" name="HandheldFriendly"/>
         <meta content="width" name="MobileOptimized"/>
         <meta content="indonesian" name="language"/>
@@ -35,7 +35,7 @@ export default function Layout({ children }: LayoutProps) {
         <meta name="og:image" content="https://i.ibb.co/WKcVH5v/Whats-App-Image-2022-11-28-at-22-15-44.jpg"/>
         <meta property="og:image:width" content="640"/>
         <meta property="og:image:height" content="167"/>
-        <meta name="og:url" content="https://123nona.biz"/>
+        <meta name="og:url" content="https://123ombak.net"/>
         <meta property="og:site_name" content="Mainkan Game Slot Online Seru di Akun Pro VIP Korea - Daftar Sekarang!" />
         <meta name="og:locale" content="ID_id"/>
         <meta name="og:video" content="https://www.youtube.com/"/>
@@ -65,6 +65,7 @@ export default function Layout({ children }: LayoutProps) {
           height: 100vh;
           overflow-y: scroll;
           overflow-x:hidden;
+          background: rgba(0,0,0,0.5);
         }
         a {
           text-decoration: none;

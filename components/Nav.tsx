@@ -2,15 +2,11 @@ type Props = {
 }
 
 export default function Nav({}: Props) {
-  const handleLink= ()=>{
-    document.getElementById("load").classList.add("show")
-    console.log("test")
-  }
   return (
       <>
           <div className='nav'>
               <div className='nav-logo'>
-                <a href="https://ombak123.net/account/register/akunprovip">
+                <a href="https://123ombak.net/account/register/akunprovip">
                     <div className="mr-2">
                         <amp-img
                             alt="logo"
@@ -30,29 +26,29 @@ export default function Nav({}: Props) {
                 </a>
               </div>
               <div className='nav-item'>
-                <a href="https://ombak123.net/account/register/akunprovip">
+                <a href="https://123ombak.net/account/register/akunprovip">
                     <div className='btn daftar'>
                         Daftar Slot
                     </div>
                 </a>
               </div>
               <div className='nav-item'>
-                <a href="https://ombak123.net/account/register/akunprovip">
+                <a href="https://123ombak.net/account/register/akunprovip">
                     <div className='btn login'>
                         Masuk
                     </div>
                 </a>
               </div>
           </div>
-          <div className="header-root">
-            <a href="https://ombak123.net/account/register/akunprovip">
+          {/* <div className="header-root">
+            <a href="https://123ombak.net/account/register/akunprovip">
                 <div className='header'>
                     <div className='header-item'>
-                        Korea Server Slot
+                        Kamboja Server Slot
                     </div>
                 </div>
             </a>
-          </div>
+          </div> */}
           <style jsx>{`
               @media (max-width:767px){
                   .nav-logo{
@@ -73,14 +69,17 @@ export default function Nav({}: Props) {
               }
               .header-root{
                 display:block;
+                margin-top: 1rem;
               }
               .header{
                 display:flex;
                 justify-content: center;
                 align-items: center;
                 height:96px;
+                background: rgba(255,255,255,0.1)
                 padding: 0 12px;
-                border: 1px dashed #f59e0b;
+                border-radius: 8px;
+                border: 1px dashed #03A9F4;
                 margin-top: 6px;
               }
               .header-item{
@@ -91,12 +90,13 @@ export default function Nav({}: Props) {
                 text-align:center;
                 color: #fff;
                 font-weight:bold;
-                background: linear-gradient(90deg,#000, #f59e0b,#000);
+                background: linear-gradient(90deg,#000, #2464c5,#000);
               }
               .nav-logo{
-                  border-bottom: 3px solid #f59e0b;
-                  border-top: 3px solid #f59e0b;
-                  background: rgba(255,255,255);
+                  position: relative;
+                  border-bottom: 3px solid #03A9F4;
+                  border-top: 3px solid #03A9F4;
+                  background: rgba(255,255,255,0.3);
                   height:80px;
                   border-radius: 0.5rem;
               }
@@ -113,21 +113,21 @@ export default function Nav({}: Props) {
               }
               .btn{
                   padding: 12px;
-                  border: 2px solid;
+                  border: 4px solid;
                   border-radius: 0.25rem;
                   text-align:center;
               }
               .daftar{
-                border-color: #f59e0b;
+                border-color: #2464c5;
                 color: #fff;
                 font-weight:bold;
-                background: #f59e0b
+                background: #2464c5
               }
               .login:hover{
-                background-color: #f59e0b
+                background-color: #2464c5
               }
               .login{
-                border-color: #f59e0b;
+                border-color: #2464c5;
                 color: #fff;
                 font-weight:bold;
                 transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
