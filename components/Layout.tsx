@@ -65,7 +65,6 @@ export default function Layout({ children }: LayoutProps) {
           height: 100vh;
           overflow-y: scroll;
           overflow-x:hidden;
-          background: rgba(0,0,0,0.5);
         }
         a {
           text-decoration: none;
@@ -74,9 +73,7 @@ export default function Layout({ children }: LayoutProps) {
           font-family: Roboto, sans-serif;
           display:block;
           color: #fff;
-          background-image: url("/img/bg3.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
+          background: #000;
         }
         div{
           box-sizing:border-box;
